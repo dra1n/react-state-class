@@ -1,5 +1,5 @@
 {
-  "name": "react-state-container",
+  "name": "react-state-class",
   "version": "0.0.1",
   "description": "A place for your react component state",
   "main": "index.js",

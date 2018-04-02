@@ -1,4 +1,4 @@
-# React State Container
+# React State Class
 
 The main idea is to decouple state logic from component code and simplify testing.
 
