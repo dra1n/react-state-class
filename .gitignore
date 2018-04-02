@@ -1,0 +1,15 @@
+.DS_STORE
+.eslintcache
+*.swp
+*~
+/examples/*/node_modules/
+
+/node_modules
+/build
+
+coverage
+npm-debug.log
+npm-debug.log*
+yarn-error.log*
+
+.projectile

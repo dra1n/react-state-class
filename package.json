@@ -1,0 +1,48 @@
+{
+  "name": "react-state-container",
+  "version": "0.0.1",
+  "description": "A place for your react component state",
+  "main": "index.js",
+  "repository": "https://github.com/dra1n/react-state-container",
+  "author": "dra1n",
+  "license": "MIT",
+  "main": "build/index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "jest": {
+    "setupFiles": [
+      "./jestrc.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "babel --source-maps inline --optional runtime -d build/ src/",
+    "prepare": "yarn build",
+    "prepublish": "yarn build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.1.2",
+    "eslint": "^4.19.0",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "^22.4.3",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-test-renderer": "^16.3.0"
+  }
+}

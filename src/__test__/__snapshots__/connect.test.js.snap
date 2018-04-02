@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`connect Stateful Component reacts to changes inside state container 1`] = `
+<StateContainer
+  authenticated={false}
+>
+  <UserMenu
+    authenticate={[Function]}
+    authenticated={false}
+    menuOptions="Log Out"
+  >
+    <div>
+      <div>
+        Log Out
+      </div>
+      <a
+        onClick={[Function]}
+      >
+        Authenticate
+      </a>
+    </div>
+  </UserMenu>
+</StateContainer>
+`;
+
+exports[`connect Stateful Component renders correctly 1`] = `
+<div>
+  <div>
+    Press authenticate
+  </div>
+  <a
+    onClick={[Function]}
+  >
+    Authenticate
+  </a>
+</div>
+`;
+
+exports[`connect Stateful Component renders correctly 2`] = `
+<div>
+  <div>
+    Log Out
+  </div>
+  <a
+    onClick={[Function]}
+  >
+    Authenticate
+  </a>
+</div>
+`;
