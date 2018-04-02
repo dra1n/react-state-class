@@ -22,8 +22,7 @@
     "test": "jest",
     "lint": "eslint .",
     "build": "babel --source-maps inline --optional runtime -d build/ src/",
-    "prepare": "yarn build",
-    "prepublish": "yarn build"
+    "prepare": "yarn build"
   },
   "devDependencies": {
     "babel-cli": "^6.6.0",
