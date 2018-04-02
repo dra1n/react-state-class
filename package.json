@@ -1,12 +1,11 @@
 {
   "name": "react-state-class",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A place for your react component state",
-  "main": "index.js",
+  "main": "build/index.js",
   "repository": "https://github.com/dra1n/react-state-container",
   "author": "dra1n",
   "license": "MIT",
-  "main": "build/index.js",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
