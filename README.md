@@ -1,5 +1,7 @@
 # react-state-class
 
+[![Build Status](https://travis-ci.org/dra1n/react-state-class.svg?branch=master)](https://travis-ci.org/dra1n/react-state-class)
+
 The main idea is to decouple state logic from component code and simplify testing.
 
 ## Installation
