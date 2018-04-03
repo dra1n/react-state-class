@@ -11,6 +11,9 @@
     "registry": "https://registry.npmjs.org/"
   },
   "jest": {
+    "roots": [
+      "src"
+    ],
     "setupFiles": [
       "./jestrc.js"
     ],
