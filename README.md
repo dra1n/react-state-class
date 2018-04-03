@@ -1,8 +1,14 @@
-# React State Class
+# react-state-class
 
 The main idea is to decouple state logic from component code and simplify testing.
 
-### Example
+## Installation
+
+```sh
+npm install --save react-state-class
+```
+
+## Usage
 
 ```jsx
 import { StateContainer } from 'react-state-container'
