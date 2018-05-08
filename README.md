@@ -13,7 +13,7 @@ npm install --save react-state-class
 ## Usage
 
 ```jsx
-import { StateContainer } from 'react-state-container'
+import { StateContainer } from 'react-state-class'
 
 export default class UserMenuState extends StateContainer {
   constructor({authenticated}) {
@@ -36,7 +36,7 @@ export default class UserMenuState extends StateContainer {
 Stateful component definition. Here we wrap our UserMenu in higher order component (HOC), which will provide all data and state handlers to UserMenu via props.
 
 ```jsx
-import { connect } from 'react-state-container'
+import { connect } from 'react-state-class'
 import UserMenuState from './UserMenuState'
 
 // Props may be given by react_compoment view helper.
