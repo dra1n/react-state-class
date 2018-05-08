@@ -1,6 +1,6 @@
 {
   "name": "react-state-class",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A place for your react component state",
   "main": "build/index.js",
   "repository": "https://github.com/dra1n/react-state-class",
